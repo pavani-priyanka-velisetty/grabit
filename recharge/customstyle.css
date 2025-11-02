@@ -1,0 +1,21 @@
+.container{
+	margin-top:20px;
+
+}
+.tab-pane{
+	padding:10px;
+	
+}
+#padma {
+    color:white;
+    background-color: #0040ff;
+}
+li
+{
+padding-right:18px;	
+font-size:20px;
+}
+a
+{
+	text-decoration:none;
+}

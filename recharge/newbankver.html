@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+   
+   <head>
+      <title>Login Page</title>
+      <link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="" />
+      <style type = "text/css">
+.tab-pane{
+	padding:10px;
+	}
+</style>
+      
+   </head>
+   
+   <body bgcolor = "#FFFFFF">
+   <div class="container">
+
+<ul class="nav nav-tabs">
+<li> <a href="#firstcontent" data-toggle="tab"> Wallet Transaction </a> </li>
+<li> <a href="#secondcontent" data-toggle="tab"> Card Transaction </a> </li>
+
+</ul>
+
+<div class="tab-content"> 
+
+<p class="tab-pane fade active in" id="firstcontent" >
+
+<form  action="" method="post"> 
+<label>Card Number  : </label><input type = "text" name = "CardNumber" class = "box" placeholder="Enter Card Number"/><br /><br />
+<label>CVV Number  : </label><input type = "text" name = "CVVNumber" class = "box" placeholder="Enter CVV" /><br/><br /> <br> <br>
+<input type = "submit" value = " Submit " name="submit"/><br />
+</form>
+
+</p>
+
+<p class="tab-pane fade" id="secondcontent" >
+
+<form action = "" method = "post">
+<label>Card Number  : </label><input type = "text" name = "CardNumber" class = "box" placeholder="Enter Card Number"/><br /><br />
+<label>CVV Number  : </label><input type = "text" name = "CVVNumber" class = "box" placeholder="Enter CVV" /><br/><br /> <br> <br>
+<input type = "submit" value = " Submit " name="submit"/><br />
+</form>
+
+</p>
+
+</div> <!-- END OF NAV-TABS CLASS -->
+</div> <!-- END OF CONTAINER -->
+
+	<script type="text/javascript" src="jquery-1.12.4.js"> </script>
+	<script type="text/javascript" src="js/bootstrap.js"> </script>
+	<script type="text/javascript"> 
+	
+	$(function(){
+	
+	$('.nav-tabs a:first').tab('show');
+	});
+	
+	</script>
+
+ </body>
+</html>
